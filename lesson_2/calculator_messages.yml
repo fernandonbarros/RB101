@@ -1,0 +1,41 @@
+en:
+  op1: 'Adding'
+  op2: 'Subtracting'
+  op3: 'Multiplying'
+  op4: 'Dividing'
+  welcome: 'Welcome to the Ruby calculator! Enter your name:'
+  invalid_name: 'Make sure to use a valid name.'
+  greeting: 'Hello'
+  first_number: 'Enter the first number:'
+  second_number: 'Enter the second number:'
+  invalid_number: 'This number is invalid'
+  operator_prompt: "Please enter an operation to perform\n
+                    1) add\n
+                    2) subtract\n
+                    3) multiply\n
+                    4) divide"
+  invalid_operators: 'Must choose 1, 2, 3, 4'
+  result_is: "The result is "
+  another_calculation: 'Do you want to perform another calculation? (Y to calculate again)'
+  goodbye: 'Thank you for using the ruby calculator!'
+
+pt-br:
+  op1: 'Adicionando'
+  op2: 'Subtraindo'
+  op3: 'Multiplicando'
+  op4: 'Dividindo'
+  welcome: 'Bemvindo a calculadora Ruby! Entre o seu nome:'
+  invalid_name: 'Nome invalid.'
+  greeting: 'Oi'
+  first_number: 'Entre o primeiro numero:'
+  second_number: 'Entre o segundo numero:'
+  invalid_number: 'Numero invalido'
+  operator_prompt: "Entre uma operacao\n
+                    1) adicionar\n
+                    2) subtrair\n
+                    3) multiplicar\n
+                    4) dividir"
+  invalid_operators: 'Selecao invalida. Deves selecionar 1, 2, 3, 4'
+  result_is: "O resultado e "
+  another_calculation: 'Quer fazer outra operacao? (Y para calcular denovo)'
+  goodbye: 'Obrigado por usar a caluladora Ruby!'

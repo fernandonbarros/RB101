@@ -1,0 +1,40 @@
+1. a method that return the sum of two integers
+START
+# Given two integers n1 and n2
+
+SET result = n1 + n2
+PRINT result
+
+END
+
+2. a method that takes an array of strings, and returns a string that si all those strings concatenated together
+START
+# Given an array of strings s_array
+
+SET iterator = 1
+SET final_string = ""
+
+WHILE iterator <= length of s_array
+  SET final_string = concatenate final_string + string in s_array at space iterator
+
+  iterator = iterator + 1
+END
+PRINT final_string
+END
+
+
+3. a method that takes an array of integers, and returns a new array with every other element
+START
+# Given an array of integers i_array
+
+SET iterator = 1
+SET final_array = []
+
+WHILE iterator <= length of i_array
+  IF iterator is odd
+    append integer in i_array at space iterator to final_array
+
+  iterator = iterator + 1
+END
+PRINT final_array
+END
