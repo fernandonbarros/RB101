@@ -1,0 +1,9 @@
+! usually indicates that a method mutates the caller, whereas ? usually indicates that a method
+returns a boolean.
+
+1. "!=" is "not equal". It should be used when comparing two variables
+2. ! prefix means not. !user_name will evaluate to True if user_name is nil or false
+3. ! suffix indicates that a method mutates the caller
+4. ? prefix is not a defined operator. exp1 ? exp2 : exp3 is the terary operator
+5. ? after a method indicates that the return value is a boolean
+6. !! prefix checks if user_name is truthy

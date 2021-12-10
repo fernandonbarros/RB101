@@ -1,0 +1,2 @@
+numbers.delete_at(i) removes the element at the ith position (zero indexed)
+numbers.delete(i) deletes all array elements with value i

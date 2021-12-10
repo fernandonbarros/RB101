@@ -1,0 +1,7 @@
+The code will print:
+1
+2
+2
+3
+
+Since uniq does not mutate the caller.
