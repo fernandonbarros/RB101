@@ -1,0 +1,3 @@
+rolling_buffer1 modifies the caller whereas rolling_buffer2 does not.
+
+I would pick rolling_buffer1, since it modifies the caller.

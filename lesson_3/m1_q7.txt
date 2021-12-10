@@ -1,0 +1,4 @@
+Original answer: The family's data did not get ransacked, since "each" was called on a copy of
+the hash's values. The function Hash.values creates a copy of the values.
+
+Correct answer: The family data got ransacked. 
