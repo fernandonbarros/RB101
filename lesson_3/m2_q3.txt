@@ -1,0 +1,11 @@
+Start
+my_string = "pumpkins"
+my_array = ["pumpkins"]
+
+Inside method
+a_string_param = "pumpkinsrutabaga"
+a_array_param = ["pumpkins", "rutabaga"]
+
+Output
+>> "My string looks like this now: pumpkins"
+>> "My array looks like this now: ["pumpkins", "rutabaga"]

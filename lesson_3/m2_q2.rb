@@ -17,7 +17,7 @@ def fun_with_ids
 
   an_illustrative_method(a_outer, b_outer, c_outer, d_outer, a_outer_id, b_outer_id, c_outer_id, d_outer_id)
 
-  # Different oids
+  # Same OIDs, since the method did not mutate the caller
   puts "a_outer is #{a_outer} with an id of: #{a_outer_id} BEFORE and: #{a_outer.object_id} AFTER the method call."
   puts "b_outer is #{b_outer} with an id of: #{b_outer_id} BEFORE and: #{b_outer.object_id} AFTER the method call."
   puts "c_outer is #{c_outer} with an id of: #{c_outer_id} BEFORE and: #{c_outer.object_id} AFTER the method call."
@@ -70,3 +70,5 @@ def an_illustrative_method(a_outer, b_outer, c_outer, d_outer, a_outer_id, b_out
   puts "d_inner is #{d_inner} with an id of: #{d_inner_id} inside the method (compared to #{d_outer.object_id} for outer)."
   puts
 end
+
+puts fun_with_ids

@@ -1,0 +1,9 @@
+Original answer:
+An error will be raised, since the variable greeting is never initialized. This 
+is because the if statement is never executed.
+
+
+Correct answer:
+greeting will have value of nil. This happens because when a variable is initialized
+inside an if block, the variable is automatically initialized to nil, even if the 
+block is not executed.
